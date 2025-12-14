@@ -8,7 +8,6 @@ This project is a step-by-step learning implementation of custom pathfinding in 
 - **Path smoothing** (line-of-sight shortcutting)
 - **Queued path computation** with a per-frame time budget (prevents long freezes with many units)
 - **Debug visualization** toggles (gizmos + unit path lines)
-- **URP glow material** using Emission + Bloom (optional visual flair)
 - **Multi-target routing** support (optional extension)
 
 This is structured like a production system: **graphs describe traversable space**, **A\*** searches the graph, **units only follow paths**, and heavy work is **queued**.
