@@ -1,4 +1,3 @@
-```markdown
 # Unity 6 URP Pathfinding Learning Project (Walking + Flying)
 
 This project is a step-by-step learning implementation of custom pathfinding in Unity 6 (URP), supporting:
