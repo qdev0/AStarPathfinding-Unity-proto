@@ -1,6 +1,6 @@
-# Unity 6 URP Pathfinding Learning Project (Walking + Flying)
+# Unity 6 URP Pathfinding Project (Walking + Flying)
 
-This project is a step-by-step learning implementation of custom pathfinding in Unity 6 (URP), supporting:
+This project is an implementation of custom pathfinding in Unity 6 (URP), supporting:
 
 - **Walking units** constrained to a surface (2D grid sampled from ground)
 - **Flying units** moving through 3D space (voxel grid)
@@ -243,7 +243,7 @@ Cause:
 - planning outside bounds yields invalid paths
 
 Fixes:
-- use one NavWorld for continuous space (preferred)
+- use one NavWorld for continuous space
 - or add overlap + portals between NavWorlds
 - or disallow cross-world legs unless both start + goal are inside the same world bounds
 
