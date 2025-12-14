@@ -1,0 +1,83 @@
+# Unity generated
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# Asset Store tools (optional cache)
+[Aa]ssets/AssetStoreTools*
+
+# VS / Rider / MonoDevelop / JetBrains
+.vs/
+.idea/
+.gradle/
+*.csproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity Rider plugin
+Assets/Plugins/Editor/JetBrains*
+Assets/Plugins/Editor/JetBrains.meta
+
+# Unity3D generated meta files for folders you might not want
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Crash reports
+sysinfo.txt
+
+# Builds / packages output (keep if you want versioned builds)
+*.apk
+*.aab
+*.unitypackage
+*.app
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Addressables cache (generated)
+Assets/AddressableAssetsData/*/BuildTargetData/
+Assets/AddressableAssetsData/*/BuildTargetData.meta
+
+# IL2CPP / Bee / Burst artifacts
+Bee/
+**/Library/Bee/
+**/Library/Il2cppBuildCache/
+**/Library/BurstCache/
+**/Library/ScriptAssemblies/
+
+# Android / Gradle caches that sometimes appear under project
+**/gradleOut/
+**/.gradle/
+
+# StreamingAssets generated content (if you generate at build time; otherwise remove)
+# Assets/StreamingAssets/**
+
+# Unity cloud diagnostics / Collaborate (legacy)
+.collabignore
+*.orig
+
+# Local tooling
+*.log
+*.bak
+*.swp
+
+# If you use Git LFS for large files, don't ignore them here.
